@@ -27,15 +27,15 @@ public class Contador {
             System.out.println("O segundo parâmetro deve ser maior que o primeiro");
          }
 		
-		
+		 int contagem = parametroDois - parametroUm;
 		//realizar o for para imprimir os números com base na variável contagem
-        for (parametroUm = 1; parametroUm <= parametroDois; parametroUm ++ ){
-			int contagem = parametroDois - parametroUm;
+        for (int i = 0; i < contagem; i ++ ){
+			  
 				if(contagem == parametroUm){
-			      contagem = parametroDois - parametroUm;
-				System.out.println("Imprimindo o número:" + contagem);
+					contagem = parametroDois - parametroUm;
+			      System.out.println("Imprimindo o número:" + contagem);
 				}else{
-			    System.out.println("Imprimindo o número:" + contagem);
+					System.out.println("Imprimindo o número:" + contagem);
 				}
 				
         }
